@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Enrique Pyszczek" />
+    <meta name="description" content="Formulario de Contacto con Respuesta al Envio" />
+    <link rel="shortcut icon" href=".logo" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="normaliza.css"></link>
+</head>
+<body>
+    
+    <div class="contenedor">
+
+        <h1>Formulario Contacto</h1>
+
+        <div class="contenido">
+
+            <div class="info">
+
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>Direccion 1111 XXXXX - Pais del Mundo</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>aakakakakdfmdq@gmail.com</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p>(111) 111116161720 <br></p>
+                </div>
+
+                <div class="redes-s">
+
+                    <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/ejpyszczek"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+
+                </div>
+
+            </div>
+
+            <form action="enviado.html" method="GET" class="formulario">
+
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electróico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
