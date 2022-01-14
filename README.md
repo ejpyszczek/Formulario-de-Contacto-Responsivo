@@ -1,4 +1,4 @@
-# "Muestra Formulario de Contacto con Respuesta y responsivo"
+# "Muestra Formulario de Contacto con Respuesta y Responsivo"
 
 Descripcion: Muestra Formulario de Contacto con Respuesta y responsivo en HTML y CSS
 
