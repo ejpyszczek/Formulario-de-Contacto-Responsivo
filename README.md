@@ -6,7 +6,7 @@ Link de Prueba: https://ejpyszczek.github.io/Formulario-de-Contacto-Responsivo/
 
 Comenzando 🚀
 
-Herramientas requisitos 📋
+Herramientas Utilizadas 📋
 HTML - CSS - Visual Studio Code
 
 Versionado 📌
